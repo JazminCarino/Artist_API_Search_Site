@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="newAPIJavascript.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link href="newAPICSS.css" rel="stylesheet" type="text/css" />
-    <title>GET TO KNOW YOUR ARTIST</title>
-  </head>
-  <body>
-    <header>Get To Know Your Artist</header>
-    <div class="searchBar">
-      <input id="artistSearch" type="text" placeholder="Search By Artist" />
-      <button onclick="createUrl()">
-        Search
-      </button>
-    </div>
-    <div class="container row" id="render-album"></div>
-    <div class="container row" id="render"></div>
-    <footer>Provided Courtesy of Itunes</footer>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script src="newApiAsyncAwait.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="newAPICSS.css" rel="stylesheet" type="text/css" />
+  <title>GET TO KNOW YOUR ARTIST</title>
+</head>
+
+<body>
+  <header>Get To Know Your Artist</header>
+  <div class="searchBar">
+    <input id="artistSearch" type="text" placeholder="Search By Artist" />
+    <button onclick="createUrl()">
+      Search
+    </button>
+  </div>
+  <div class="container row" id="render-album"></div>
+  <div class="container row" id="render"></div>
+  <footer>Provided Courtesy of Itunes</footer>
+</body>
+
 </html>
